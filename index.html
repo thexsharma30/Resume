@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amar Sharma's Resume</title>
+  <style>
+    /* Basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #333; /* Dark Grey background */
+      color: #fff; /* Text color */
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #f5f5f5; /* Light Grey structure */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      position: relative;
+      color: #333; /* Text color within container */
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 0;
+    }
+
+    .section {
+      margin-bottom: 30px;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .section-header {
+      background-color: #ddd; /* Light Grey heading structure */
+      color: #000; /* Heading text color set to black */
+      padding: 15px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+    .section-body {
+      background-color: #f0f0f0; /* Lighter body sections */
+      padding: 15px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+
+    /* Added styles for contact information */
+    .contact-info {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 14px;
+      color: #333; /* Set text color */
+    }
+
+    .contact-info a {
+      color: #191717; /* Set link color */
+      text-decoration: none;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .contact-info a.linkedin,
+    .contact-info a.github {
+      font-weight: bold; /* Make LinkedIn and GitHub links bold */
+    }
+
+    /* Profile picture size and circular border */
+    .profile-img {
+      width: 175px;
+      height: 175px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #600aea; /* Initial border color */
+      transition: border-color 0.3s ease; /* Smooth transition */
+    }
+
+    /* Change border color on hover */
+    .profile-img:hover {
+      border-color: #ff0000; /* Change to a different color on hover (e.g., red) */
+    }
+
+    /* Style for Technical Skills */
+    .technical-skills {
+      list-style: none; /* Remove bullets */
+      margin: 0;
+      padding: 0;
+      display: flex; /* Display items in a flex container */
+    }
+
+    .technical-skills li {
+      margin-right: 10px; /* Add spacing between items */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Contact Information -->
+    <div class="contact-info">
+      <a href="mailto:amarsharma0030@gmail.com">Email: amarsharma0030@gmail.com</a>
+      <a href="tel:+917985828578">Phone: +91 7985828578</a>
+      <a href="https://www.linkedin.com/in/amarsharma30/" target="_blank" class="linkedin">LinkedIn</a>
+      <a href="https://github.com/thexsharma30" target="_blank" class="github">GitHub</a>
+    </div>
+
+    <!-- Profile Picture Section -->
+    <div class="section">
+      <div class="section-body">
+        <!-- Replace with your profile picture URL -->
+        <img class="profile-img" src="./AmarSharmaImage.png" alt="Profile Picture">
+      </div>
+    </div>
+
+    <!-- Name Section -->
+    <div class="section">
+      <div class="section-body">
+        <h1>Amar Sharma</h1>
+      </div>
+    </div>
+
+    <!-- Technical Skills Section -->
+    <div class="section">
+      <div class="section-header">
+        <h2>Technical Skills</h2>
+      </div>
+      <div class="section-body">
+        <ul class="list">
+          <li>HTML/CSS,Java,Spring Boot,C,C++,Python,MySQL,React,Node.js,AWS,Git,Linux</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Certifications Section -->
+    <div class="section">
+      <div class="section-header">
+        <h2>Certifications</h2>
+      </div>
+      <div class="section-body">
+        <ul class="list">
+          <li>Java By Hackerrank, Sep 2023</li>
+          <li>Full-Stack development Bootcamp By Udemy, Nov 2023</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="section">
+      <div class="section-header">
+        <h2>Education</h2>
+      </div>
+      <div class="section-body">
+        <ul class="list">
+          <li>MCA - Aug-Ongoing - VIT-Bhopal - Ongoing</li>
+          <li>BCA - July 2023 - VSICS, Kanpur - 69.69%</li>
+          <li>Class XII - May 2020 - Mother Teresa Higher Secondary School, Kanpur - 68.75%</li>
+          <li>Class X - May 2018 - Mother Teresa Higher Secondary School, Kanpur - 73.4%</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Academic Projects Section -->
+    <div class="section">
+      <div class="section-header">
+        <h2>Academic Projects</h2>
+      </div>
+      <div class="section-body">
+        <ul class="list">
+          <li>EMPOWER - Description: An efficient Employee Management System, handling secure authentication, database management, leave tracking, and detailed reporting for streamlined administration. Technology: HTML/CSS, JavaScript, Java Spring Boot, MySql. Link (GitHub): <a href="github.com/thexsharma30/EM-Power">github.com/thexsharma30/EM-Power</a></li>
+          <li>QuizzyBee - Description: Developed a no-cost interview preparation quiz platform for Information Technology candidates, leveraging an extensive question bank from RapidApi. Technology: JavaScript, (NodeJS, ReactJS), HTML5, CSS3, AppWrite, RapidApi. Link (Github): <a href="github.com/thexsharma30/QuizzyBee">github.com/thexsharma30/QuizzyBee</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Co-curriculars Section -->
+    <div class="section">
+      <div class="section-header">
+        <h2>Co-curriculars</h2>
+      </div>
+      <div class="section-body">
+        <ul class="list">
+          <li>Hackerrank 5 Star in Java</li>
+          <li>Completed 70 Days of Coding in Java</li>
+          <li>Solved 150+ Questions in GFG & LeetCode</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Extra-curriculars and Achievements Section -->
+    <div class="section">
+      <div class="section-header">
+        <h2>Extra-curriculars and Achievements</h2>
+      </div>
+      <div class="section-body">
+        <ul class="list">
+          <li>Participated in coding competitions and secured top positions, demonstrating technical proficiency and creativity.</li>
+          <li>Developed and launched software or applications that garnered positive user feedback or download metrics.</li>
+          <li>Lead a team of 4 in EY Techathon 4.0</li>
+          <li>Managed school and college sports events for successful coordination and engagement.</li>
+          <li>Attended Cyber Security & Ethical Hacking Workshop.</li>
+          <li>Completed 3 Months of Python training from ITEC.</li>
+          <li>Attended Personality Development Training provided by Campus (VSICS).</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Additional Information Section -->
+    <div class="section">
+      <div class="section-header">
+        <h2>Hobbies</h2>
+      </div>
+      <div class="section-body">
+        <ul class="list">
+          <li>Gym enthusiast - "Passionate gym enthusiast dedicated to fitness, training, and a healthy lifestyle advocacy."</li>
+          <li>Vlogging - "Captured daily life in unique, engaging vlogs, fostering deep connections with viewers."</li>
+          <li>Languages: English, Hindi</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
