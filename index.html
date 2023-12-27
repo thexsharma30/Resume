@@ -24,7 +24,6 @@
       position: relative;
       color: #333; /* Text color within container */
     }
-
     h1, h2, h3, h4, h5, h6 {
       margin-top: 0;
     }
@@ -35,33 +34,67 @@
       overflow: hidden;
     }
 
-    /* ... (other styles remain the same) */
+    .section-header {
+      background-color: #ddd; /* Light Grey heading structure */
+      color: #000; /* Heading text color set to black */
+      padding: 15px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
 
-    /* Responsive styles */
-    @media only screen and (max-width: 768px) {
-      .container {
-        max-width: 90%; /* Adjust container width for smaller screens */
-      }
+    .section-body {
+      background-color: #f0f0f0; /* Lighter body sections */
+      padding: 15px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
 
-      .profile-img {
-        width: 150px; /* Adjust profile image size for smaller screens */
-        height: 150px;
-      }
-      
-      /* Adjust font sizes or margins for smaller screens if necessary */
-      h1 {
-        font-size: 24px;
-      }
-      
-      h2 {
-        font-size: 20px;
-      }
-      
-      h3 {
-        font-size: 18px;
-      }
-      
-      /* You can continue adjusting other elements as needed */
+    /* Added styles for contact information */
+    .contact-info {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 14px;
+      color: #333; /* Set text color */
+    }
+
+    .contact-info a {
+      color: #191717; /* Set link color */
+      text-decoration: none;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .contact-info a.linkedin,
+    .contact-info a.github {
+      font-weight: bold; /* Make LinkedIn and GitHub links bold */
+    }
+
+    /* Profile picture size and circular border */
+    .profile-img {
+      width: 175px;
+      height: 175px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #600aea; /* Initial border color */
+      transition: border-color 0.3s ease; /* Smooth transition */
+    }
+
+    /* Change border color on hover */
+    .profile-img:hover {
+      border-color: #ff0000; /* Change to a different color on hover (e.g., red) */
+    }
+
+    /* Style for Technical Skills */
+    .technical-skills {
+      list-style: none; /* Remove bullets */
+      margin: 0;
+      padding: 0;
+      display: flex; /* Display items in a flex container */
+    }
+
+    .technical-skills li {
+      margin-right: 10px; /* Add spacing between items */
     }
   </style>
 </head>
